@@ -1,14 +1,15 @@
 /* banner relate task */
 
 * {
-    margin: 0;
+    margin-left: 0px;
     padding: 0;
 }
+
 
 .container {
     width: 82.5%;
     max-width: 1320px;
-    margin: 0 auto;
+    margin: 50px auto;
 
 }
 
@@ -16,7 +17,7 @@
     padding-top: 150px;
     color: #FFF;
     text-align: center;
-   font-family: Merriweather;
+    font-family: Merriweather;
     font-size: 32px;
     font-weight: 400;
 
@@ -33,14 +34,205 @@
 }
 
 .header-container {
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     background-size: 100%;
     height: 600px;
     justify-content: center;
     border-radius: 16px;
     margin-top: 50px;
+    margin-bottom: 0;
 }
 
-.banner {}
-border-radius: 16px;
+.discount-section {
+    text-align: center;
+    background-color: #FFF;
+    ;
+}
+
+.discount-title {
+    color: #F00;
+    font-family: Inte;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.discout-type {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.category {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.party-section {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
+    background-repeat: no-repeat;
+    width: 82.5%;
+    height: 600px;
+    max-width: 1320px;
+    margin: 50px auto;
+    border-radius: 16px;
+
+}
+
+.welcome-party {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.welcome-party-title {
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 1.3em;
+    letter-spacing: 7.04px;
+
+}
+
+.welcome-party-para {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+.join-now-btn {
+    font-size: 20px;
+    font-weight: 600;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #F15B22;
+    padding: 20px;
+    color: #FFF;
+}
+
+.welcome-party-left {
+    padding-left: 110px;
+    padding-top: 110px;
+    padding-bottom: 10px;
+}
+
+.image-2024 {
+    width: 320px;
+    padding-right: 138px;
+    padding-top: 68px;
+}
+
+/* 
+.address-section{
+    border: #FFF;
+    width: 82.5%;
+    height: 482px;
+    max-width: 1320px;
+    background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
+} */
+
+.address-section-border {
+    border: none black;
+    margin: 120px;
+    border-radius: 10px;
+
+}
+
+.address-details {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 50px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
+}
+
+.address-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+}
+
+.join-now-btn2 {
+    font-size: 20px;
+    font-weight: 600;
+    width: 160px;
+    height: 64px;
+    border-radius: 8px;
+    background: #F00;
+    padding: 10px;
+    color: #FFF;
+}
+
+.best-offer-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+
+.offer-section-title1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-section-title2 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.offer-section-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.offer-section-left {
+    text-align: left;
+    padding-left: 120px;
+}
+
+.offer-section-mdl-img {
+    border: 15px solid #F00;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.offer-section-right {
+    padding-right: 120px;
+    text-align: justify;
+}
+
+.offer-section-yr {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.offer-section-rt-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
