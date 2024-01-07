@@ -1,0 +1,46 @@
+/* banner relate task */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+.new-year-title1 {
+    padding-top: 150px;
+    color: #FFF;
+    text-align: center;
+   font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+
+}
+
+.new-year-title2 {
+    padding-top: 10px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 80px;
+}
+
+.header-container {
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    justify-content: center;
+    border-radius: 16px;
+    margin-top: 50px;
+}
+
+.banner {}
+border-radius: 16px;
