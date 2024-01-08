@@ -10,7 +10,6 @@
     width: 82.5%;
     max-width: 1320px;
     margin: 50px auto;
-
 }
 
 .new-year-title1 {
@@ -36,30 +35,30 @@
 .header-container {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: contain;
     height: 600px;
     justify-content: center;
     border-radius: 16px;
-    margin-top: 50px;
-    margin-bottom: 0;
+
 }
 
 .discount-section {
     text-align: center;
     background-color: #FFF;
-    ;
+    margin-top: 120px;
+
 }
 
 .discount-title {
     color: #F00;
-    font-family: Inte;
+    font-family: Inter;
     font-size: 88px;
     font-weight: 700;
 }
 
 .discout-type {
     color: #F00;
-    font-family: Inter;
+    font-family: sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
@@ -74,17 +73,15 @@
 .party-section {
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Vectorrr.png');
     background-repeat: no-repeat;
-    width: 82.5%;
     height: 600px;
-    max-width: 1320px;
-    margin: 50px auto;
     border-radius: 16px;
-
+    background-size: contain;
+    margin-top: 120px;
 }
 
 .welcome-party {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -115,34 +112,27 @@
     background: #F15B22;
     padding: 20px;
     color: #FFF;
+
 }
 
 .welcome-party-left {
-    padding-left: 110px;
+
     padding-top: 110px;
     padding-bottom: 10px;
 }
 
 .image-2024 {
     width: 320px;
-    padding-right: 138px;
     padding-top: 68px;
 }
 
-/* 
-.address-section{
-    border: #FFF;
-    width: 82.5%;
-    height: 482px;
-    max-width: 1320px;
-    background-color: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);;
-} */
-
 .address-section-border {
     border: none black;
-    margin: 120px;
     border-radius: 10px;
+}
 
+.address-section {
+    margin-top: 120px;
 }
 
 .address-details {
@@ -180,8 +170,8 @@
 
 .best-offer-section {
     display: flex;
-    justify-content: space-between;
-    margin: 50px auto;
+    justify-content: space-around;
+    margin-top: 120px;
 }
 
 .offer-section-title1 {
@@ -208,7 +198,7 @@
 
 .offer-section-left {
     text-align: left;
-    padding-left: 120px;
+
 }
 
 .offer-section-mdl-img {
@@ -218,7 +208,7 @@
 }
 
 .offer-section-right {
-    padding-right: 120px;
+
     text-align: justify;
 }
 
@@ -235,4 +225,94 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+}
+
+.holiday-sell-img {
+    display: flex;
+}
+
+.holiday-sell-section {
+    justify-content: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.holiday-sell-title1 {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.holiday-sell-title2 {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.Sale-firty {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+.holiday-sell-para {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.holiday-sell-img {
+    justify-content: space-between;
+    background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+
+
+.holiday-sell-img2 {
+    width: 206.841px;
+    height: 206.841px;
+
+}
+
+
+.pic-div1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 16px;
+background: lightgray 50% / cover no-repeat;
+}
+
+.best-gift-title1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    
+}
+
+.best-gift-title2{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+
+.gift-div{
+   text-align: left;
+   margin-top: 120px;
+}
+
+.best-gift-para{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
 }
