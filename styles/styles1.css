@@ -1,15 +1,24 @@
 /* banner relate task */
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 * {
     margin-left: 0px;
     padding: 0;
 }
 
+.header-container {
+    width: 82.5%;
+    max-width: 1320px;
+    margin: 50px auto;
+}
 
 .container {
     width: 82.5%;
     max-width: 1320px;
-    margin: 50px auto;
+    margin: 120px auto;
 }
 
 .new-year-title1 {
@@ -266,53 +275,260 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
+    margin-bottom: 64px;
 }
 
 .holiday-sell-img {
     justify-content: space-between;
     background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom, right top;
+    position: relative;
+    height: 654px;
+    display: flex;
+    align-items: end;
 }
 
 
 
 .holiday-sell-img2 {
-    width: 206.841px;
-    height: 206.841px;
+    width: 305.841px;
+    position: absolute;
+    right: 312px;
+    bottom: 250px;
+}
+
+.holiday-sell-box {
+    width: 600px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+
 
 }
 
-
 .pic-div1 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     border-radius: 16px;
-background: lightgray 50% / cover no-repeat;
+    background: lightgray 50% / cover no-repeat;
+
 }
 
 .best-gift-title1 {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
-    
+    font-weight: 500;
+    line-height: 10px;
 }
 
-.best-gift-title2{
+.best-gift-title2 {
     color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
-
-.gift-div{
-   text-align: left;
-   margin-top: 120px;
+    line-height: 15px;
 }
 
-.best-gift-para{
+.gift-div {
+    margin-top: 120px;
+}
+
+.best-gift-para {
     color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+
+
+.pic {
+    margin-right: 24px;
+    height: 450px;
+    margin-bottom: 24px;
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+    transition: .5s;
+}
+
+
+.pic-container {
+    width: 82.5%;
+    margin: 120px auto;
+    max-width: 1320px;
+
+}
+
+.pic-div {
+    border-radius: 16px;
+    background: #FFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+
+}
+
+.pic:hover {
+    transform: scale(1.2);
+}
+
+.subscribe-section {
+    border: none solid;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.05);
+    height: 616px;
+    border-radius: 16px;
+   
+}
+
+.email-icon {
+    width: 150px;
+    height: 150px;
+    padding-top: 80px;
+}
+
+.subscribe-title {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.subscribe-para {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.input-div {
+    display: flex;
+    margin-top: 48px;
+}
+
+.email-label {
+    position: relative;
+}
+
+.input-email {
+    padding: 25px 477px 25px 30px;
+    border-radius: 50px;
+    background: #FFF;
+    color: rgba(7, 2, 17, 0.30);
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.subscribe-btn {
+    padding: 25px 56px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    position: absolute;
+    right: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-container {
+    background: #070211;
+    height: 609px;
+    justify-content: space-between;
+}
+
+.footer-top {
+    width: 82.5%;
+    max-width: 1320px;
+    justify-content: space-between;
+    display: flex;
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+
+
+
+.footer-top-left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    padding-top: 120px;
+  
+    
+}
+
+.footer-top-right {
+    padding-top: 120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.line{width: 1320px;
+    height: 1px;
+    margin-bottom: 50px;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.social-icon {
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+.social-icon img {
+    margin-right: 24px;
+    
+}
+
+.footer-bottom {
+    max-width: 1320px;
+    width: 82.5%;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-bottom-left {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+   
+}
+.footer-bottom-btn{
+    color: #FFF;
 font-family: Inter;
-font-size: 20px;
-font-weight: 400;
+font-size: 24px;
+font-weight: 500;
+padding: 16px 32px;
+border-radius: 8px;
+background: #F00;
+
 }
