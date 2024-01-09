@@ -1,4 +1,4 @@
-/* banner relate task */
+/* All Body related task */
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
@@ -13,6 +13,12 @@
     width: 82.5%;
     max-width: 1320px;
     margin: 50px auto;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 600px;
+    justify-content: center;
+    border-radius: 16px;
 }
 
 .container {
@@ -41,15 +47,6 @@
     line-height: 80px;
 }
 
-.header-container {
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Banner\ Image.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 600px;
-    justify-content: center;
-    border-radius: 16px;
-
-}
 
 .discount-section {
     text-align: center;
@@ -532,8 +529,6 @@ margin-bottom: 0px;
 }
 
 
-
-
 .footer-top-left {
     color: #FFF;
     font-family: Inter;
@@ -588,11 +583,13 @@ margin-bottom: 0px;
 
 .footer-bottom-left {
     color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-weight: 500;
-
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
+
 
 .footer-bottom-btn {
     color: black ;
@@ -602,5 +599,4 @@ margin-bottom: 0px;
     padding: 16px 32px;
     border-radius: 8px;
     background: #FFF;
-
 }
