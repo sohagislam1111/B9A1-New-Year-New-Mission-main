@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-* {
+*{
     margin-left: 0px;
     padding: 0;
 }
@@ -290,10 +290,17 @@ height: 464.662px;
     display: flex;
 }
 
+
 .holiday-sell-section {
     justify-content: center;
     text-align: center;
-    margin-top: 120px;
+    height: 986.07px;
+}
+
+.holiday-section-top{
+    margin-top: 0px;
+    padding-top: 0px;
+margin-bottom: 0px;
 }
 
 .holiday-sell-title1 {
@@ -301,6 +308,8 @@ height: 464.662px;
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .holiday-sell-title2 {
@@ -309,6 +318,9 @@ height: 464.662px;
     font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
+    padding-top: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .Sale-firty {
@@ -325,16 +337,24 @@ height: 464.662px;
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
-    margin-bottom: 64px;
+    height: 96px;
+    margin-top: 0px;
+    padding-top: 28px;
+    margin-bottom: 0px;
+}
+
+.holiday-pic{
+    background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    background-position: bottom, right top;
+    height: 654px;
+    padding-top: 0px;
+    margin-top: 64px;
 }
 
 .holiday-sell-img {
     justify-content: space-between;
-    background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
-    background-repeat: no-repeat;
-    background-position: bottom, right top;
     position: relative;
-    height: 654px;
     display: flex;
     align-items: end;
 }
