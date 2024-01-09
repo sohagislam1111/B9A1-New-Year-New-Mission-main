@@ -183,7 +183,7 @@ height: 464.662px;
     border-color: #F00;
 }
 	.btn2{
-		padding-top:48px;
+		  
 	}
 
 .best-offer-section {
@@ -436,7 +436,7 @@ margin-bottom: 0px;
 }
 
 .pic:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .subscribe-section {
