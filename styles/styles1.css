@@ -343,20 +343,16 @@ margin-bottom: 0px;
     margin-bottom: 0px;
 }
 
-.holiday-pic{
+
+
+.holiday-sell-img {
     background-image: url('../resources/Rectangle\ 2.png'), url('../resources/Rectangle\ 1.png');
     background-repeat: no-repeat;
     background-position: bottom, right top;
+    position: relative;
     height: 654px;
     padding-top: 0px;
     margin-top: 64px;
-}
-
-.holiday-sell-img {
-    justify-content: space-between;
-    position: relative;
-    display: flex;
-    align-items: end;
 }
 
 
@@ -369,10 +365,9 @@ margin-bottom: 0px;
 }
 
 .holiday-sell-box {
-    width: 600px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-
+    width:500px
+    margin-bottom: 0px;
+    padding-bottom: 0px ;
 
 }
 
