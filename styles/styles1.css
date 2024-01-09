@@ -85,12 +85,12 @@
     height: 600px;
     border-radius: 16px;
     background-size: contain;
-    margin-top: 120px;
+
 }
 
 .welcome-party {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -99,40 +99,47 @@
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
-    line-height: 1.3em;
+    line-height: 88px;
     letter-spacing: 7.04px;
-
+    padding-top: 124px;
+    margin: 0px;
 }
 
 .welcome-party-para {
     color: rgba(255, 255, 255, 0.80);
     font-family: Inter;
     font-size: 18px;
+    font-style: normal;
     font-weight: 400;
-    line-height: 1em;
+    line-height: 30px;
+    padding-top: 24px;
 }
 
 .join-now-btn {
+    border-color: white;
     font-size: 20px;
     font-weight: 600;
     width: 160px;
     height: 64px;
     border-radius: 5px;
-    background: #F15B22;
+    background: white;
     padding: 20px;
-    color: #FFF;
+    color: black;
 
 }
 
 .welcome-party-left {
-
-    padding-top: 110px;
-    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 126px;
 }
 
-.image-2024 {
-    width: 320px;
+.pic2024{
+    width: 319.83px;
+height: 464.662px;
     padding-top: 68px;
+    padding-bottom: 67px;
+    padding-right: 120px;
+    
 }
 
 .address-section-border {
@@ -175,12 +182,18 @@
     background: #F00;
     padding: 10px;
     color: #FFF;
+    border-color: #F00;
 }
 
 .best-offer-section {
     display: flex;
-    justify-content: space-around;
-    margin-top: 120px;
+    justify-content: space-between;
+    height: 463px;
+    max-width: 1320px;
+    margin: 120px auto;
+    width: 82.5%;
+    border: none solid;
+
 }
 
 .offer-section-title1 {
@@ -188,6 +201,10 @@
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    margin-top: 0px;
+    padding-top: 104px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .offer-section-title2 {
@@ -195,6 +212,9 @@
     font-family: Merriweather;
     font-size: 48px;
     font-weight: 900;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .offer-section-para {
@@ -203,6 +223,8 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+    margin-top: 0px;
+    padding-top: 22px;
 }
 
 .offer-section-left {
@@ -210,15 +232,30 @@
 
 }
 
+.offer-section-middle {
+    width: 463px;
+    height: 463px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
 .offer-section-mdl-img {
+    width: 364.844px;
+    height: 364.844px;
+    flex-shrink: 0;
     border: 15px solid #F00;
     border-radius: 50%;
-    padding: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 34px;
 }
 
 .offer-section-right {
-
-    text-align: justify;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
 .offer-section-yr {
@@ -226,14 +263,27 @@
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+    margin-top: 0px;
+    padding-top: 112px;
+    margin-bottom: 0px;
 }
 
 .offer-section-rt-para {
+    padding-top: 0px;
+    margin-top: 0px;
+    
     color: rgba(7, 2, 17, 0.60);
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
+  
+}
+
+.offer-section-right-bottom-img {
+    width: 140px;
+    height: 140px;
+    padding-top: 43px;
 }
 
 .holiday-sell-img {
@@ -381,7 +431,7 @@
     background: rgba(255, 0, 0, 0.05);
     height: 616px;
     border-radius: 16px;
-   
+
 }
 
 .email-icon {
@@ -457,8 +507,9 @@
     max-width: 1320px;
     justify-content: space-between;
     display: flex;
-    margin-left:  auto;
+    margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 
@@ -471,8 +522,8 @@
     font-weight: 500;
     line-height: 40px;
     padding-top: 120px;
-  
-    
+
+
 }
 
 .footer-top-right {
@@ -484,16 +535,17 @@
     line-height: 40px;
 }
 
-.line{width: 1320px;
-    height: 1px;
+.line {
+    width: 1320px;
     margin-bottom: 50px;
- margin-left: auto;
- margin-right: auto;
-
+    margin-left: auto;
+    margin-right: auto;
+   
+  
 }
 
 .social-icon {
-    padding: 48px 0;
+    padding-bottom: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -502,7 +554,7 @@
 
 .social-icon img {
     margin-right: 24px;
-    
+
 }
 
 .footer-bottom {
@@ -520,15 +572,16 @@
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-   
+
 }
-.footer-bottom-btn{
-    color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-padding: 16px 32px;
-border-radius: 8px;
-background: #F00;
+
+.footer-bottom-btn {
+    color: black ;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 16px 32px;
+    border-radius: 8px;
+    background: #FFF;
 
 }
