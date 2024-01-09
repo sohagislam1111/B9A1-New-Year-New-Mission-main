@@ -1,0 +1,12 @@
+Git Init
+
+Git Add .  [ Add এর পর স্পেস দিয়ে Dot দিতে ভুলিও না ]
+
+Git Commit -M " Meaningful Message "
+
+Git Branch -M Main
+
+Git Remote Add Origin Https://Github.Com/Example/Example.Git
+
+Git Push Origin Main
+

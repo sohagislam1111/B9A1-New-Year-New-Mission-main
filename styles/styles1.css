@@ -6,7 +6,7 @@
 
 *{
     margin-left: 0px;
-    padding: 0;
+    padding: 0 px;
 }
 
 .header-container {
@@ -139,7 +139,6 @@ height: 464.662px;
     padding-top: 68px;
     padding-bottom: 67px;
     padding-right: 120px;
-    
 }
 
 .address-section-border {
@@ -171,6 +170,8 @@ height: 464.662px;
     font-size: 32px;
     font-weight: 600;
     line-height: 56px;
+	margin-bottom:0px;
+	padding-bottom:0px;
 }
 
 .join-now-btn2 {
@@ -184,6 +185,9 @@ height: 464.662px;
     color: #FFF;
     border-color: #F00;
 }
+	.btn2{
+		padding-top:48px;
+	}
 
 .best-offer-section {
     display: flex;
@@ -283,7 +287,7 @@ height: 464.662px;
 .offer-section-right-bottom-img {
     width: 140px;
     height: 140px;
-    padding-top: 43px;
+   position: right bottom;
 }
 
 .holiday-sell-img {
